@@ -10,7 +10,7 @@ class Counter:
     def increase(self):
         self.value += 1
 
-    def increase2(self):
+    def increase3(self):
         self.value += 3
 
 
@@ -27,8 +27,8 @@ if __name__ == "__main__":
     counter_2 = Counter(15)
     print(counter_2.value)
 
-    counter_2.increase2()
-    print(counter_2.value)  # 2ずつ増える
+    counter_2.increase3()
+    print(counter_2.value)  # 3ずつ増える
 
-    counter_2.increase2()
-    print(counter_2.value)  # さらに2増える
+    counter_2.increase3()
+    print(counter_2.value)  # さらに3増える

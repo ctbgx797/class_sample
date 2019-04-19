@@ -5,6 +5,7 @@ class Product:
         self.name = name
         self.amount = amount
 
+    # インスタンスメソッド
     def discount(self, price):
         self.amount -= price
         # self.amount = self.amount price
